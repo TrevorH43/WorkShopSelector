@@ -18,7 +18,7 @@ namespace WorkShopSelector
             string workshopInfo;
             StringBuilder WorkshopInfoBuilder = new StringBuilder();
 
-            if (worshopListBox.SelectedIndex != -1 && cityListBox.SelectedIndex != -1)
+            if (workshopListBox.SelectedIndex != -1 && cityListBox.SelectedIndex != -1)
             {
                 switch (workshopListBox.SelectedIndex)
                 {
